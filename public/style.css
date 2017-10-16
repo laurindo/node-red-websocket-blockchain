@@ -1,0 +1,87 @@
+body {
+    background-color: #012e44;
+    color: #fff;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.element div.content-empty {
+    text-align: center;
+}
+
+.element small.tweet {
+    font-size: 14px;
+}
+
+.element p.tweet {
+    font-size: 22px;
+}
+
+.card {
+    background-color: #f8fafb;
+    border-radius: 5px;
+    min-height: 700px;
+    max-height: 700px;
+    overflow-y: auto;
+    padding: 0 10px;
+}
+
+.card::-webkit-scrollbar {
+    width: 0.6em;
+}
+ 
+.card::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.card::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.card h4 {
+    color: #000;
+}
+
+.card .tweet-maroto {
+    background-color: #f5f7f7;
+    border-radius: 5px;
+    box-shadow: #a7a5a5 0px 2px 4px 0px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.card .tweet-maroto p {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #038cd0;
+}
+
+.card .tweet-maroto small {
+    font-size: 2em;
+    color: black;
+}
+
+.empty {
+    text-align: center;
+    font-size: 30px;
+    color: #303030;
+}
+
+.area-tweet {
+    background-color: #1c5e7d;
+    margin-bottom: 5px;
+    border-bottom: solid 1px #012e44;
+    padding: 5px;
+}
+
+.area-kpi-task {
+    text-align: center;
+    font-size: 10em;
+}
